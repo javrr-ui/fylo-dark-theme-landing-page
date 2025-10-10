@@ -66,6 +66,7 @@ nav img {
   padding-top: 1em;
   padding-left: 2.5em;
   padding-right: 2.5em;
+  padding-bottom: 8em;
   position: relative;
   width: 100%;
 }
@@ -94,7 +95,7 @@ nav img {
 .background-merge {
   display: flex;
   flex-direction: column;
-  position: absolute; 
+  position: absolute;
   top: 200px;
   left: 0;
   width: 100%;
@@ -108,7 +109,7 @@ nav img {
 .square {
   background-color: var(--navy-900);
   width: 100%;
-  height: 200px;
+  height: 340px;
 }
 
 .intro-cta {
@@ -128,8 +129,25 @@ nav img {
 }
 
 .features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   background-color: var(--navy-900);
+  gap: 1em;
+  color: white;
+  text-align: center;
+  padding: 3em 2.5em;
+  font-size: 14px;
+  font-family: "Open Sans";
+}
+
+.features img {
+  padding-bottom: 1em;
+}
+
+.last-feature {
+  padding-bottom: 15em;
 }
 
 .productive-image img {

@@ -183,6 +183,30 @@ nav img {
   gap: 1.2em;
 }
 
+.see-how {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.see-how a {
+  text-decoration: none;
+  color: var(--cyan-500);
+}
+
+.border {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.3em;
+  padding-bottom: 0.3em;
+  border-bottom: 2px solid var(--cyan-500);
+}
+
+.border img {
+  width: 20px;
+}
+
 .socials .social {
   max-width: 350px;
 }

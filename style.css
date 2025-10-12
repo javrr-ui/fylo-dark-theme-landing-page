@@ -362,6 +362,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 3em;
+  padding-bottom: 3em;
 }
 
 .footer-links ul {
@@ -378,6 +379,22 @@ footer {
   font-family: "Open Sans", sans-serif;
 }
 
-.socials .social {
-  max-width: 350px;
+.socials {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-bottom: 8em;
+  justify-content: center;
+  gap: 1em;
+}
+
+.socials a {
+  border: 1px solid white;
+  border-radius: 50%;
+  display: flex;
+}
+
+.socials img {
+  padding: 0.5em;
+  width: 30px;
 }

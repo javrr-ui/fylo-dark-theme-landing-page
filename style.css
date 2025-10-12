@@ -304,6 +304,78 @@ nav img {
   padding: 0.8em 0em;
 }
 
+/* Footer */
+footer {
+  background-color: var(--navy-950);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: 2em;
+  gap: 1.2em;
+}
+
+.footer-logo {
+  padding-left: 1em;
+  padding-bottom: 1.5em;
+}
+
+.location {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5em;
+}
+
+.location img {
+  min-width: 20px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5em;
+  padding-bottom: 4em;
+}
+
+.phone {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5em;
+}
+
+.email {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5em;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+
+.footer-links ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+  list-style: none;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
 
 .socials .social {
   max-width: 350px;

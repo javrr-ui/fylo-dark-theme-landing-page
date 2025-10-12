@@ -369,6 +369,7 @@ footer {
   flex-direction: column;
   gap: 0.8em;
   list-style: none;
+  padding-left: 0px;
 }
 
 .footer-links ul li a {

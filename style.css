@@ -328,6 +328,7 @@ footer {
   font-family: "Open Sans", sans-serif;
   padding: 2em;
   gap: 1.2em;
+  z-index: 2;
 }
 
 .footer-logo {

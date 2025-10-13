@@ -413,3 +413,13 @@ footer {
   padding: 0.5em;
   width: 30px;
 }
+
+@media screen and (min-width: 1024px) {
+  nav {
+    padding: 3em 3em;
+  }
+
+  .nav-links {
+    gap: 3rem;
+  }
+}

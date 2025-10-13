@@ -76,12 +76,16 @@ nav img {
 }
 
 .intro-text {
+  display: flex;
+  flex-direction: column;
   padding-top: 1.3em;
   padding-bottom: 2em;
   color: white;
   font-family: "Open Sans";
   font-size: 14px;
   text-align: center;
+  width: 100%;
+  align-items: center;
 }
 
 .intro-text h1 {
@@ -429,11 +433,12 @@ footer {
   }
 
   .intro-text h1 {
-    padding: 0em 12em;
+    width: 500px;
     padding-bottom: 1em;
   }
 
   .intro-text p {
-    padding: 0em 20em;
+    width: 440px;
+    word-break: keep-all;
   }
 }

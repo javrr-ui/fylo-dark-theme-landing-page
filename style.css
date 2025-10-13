@@ -422,4 +422,18 @@ footer {
   .nav-links {
     gap: 3rem;
   }
+
+  /* intro */
+  .intro-image img {
+    max-width: 600px;
+  }
+
+  .intro-text h1 {
+    padding: 0em 12em;
+    padding-bottom: 1em;
+  }
+
+  .intro-text p {
+    padding: 0em 20em;
+  }
 }

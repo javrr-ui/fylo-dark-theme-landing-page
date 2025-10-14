@@ -150,12 +150,8 @@ nav img {
   font-family: "Open Sans";
 }
 
-.features img {
-  padding-bottom: 1em;
-}
-
-.last-feature {
-  padding-bottom: 15em;
+.feature img {
+  max-height: 92px;
 }
 
 /* Stay productive */

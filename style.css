@@ -511,4 +511,13 @@ footer {
   .see-how {
     padding-bottom: 0em;
   }
+
+  .testimonials {
+    flex-direction: row;
+    padding: 0em 6em 10em 6em;
+  }
+
+  .testimonial {
+    font-size: 14px;
+  }
 }

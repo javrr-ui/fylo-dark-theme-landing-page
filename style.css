@@ -467,6 +467,7 @@ footer {
     column-gap: 4em;
     justify-content: center;
     margin: 0 auto;
+    padding-bottom: 4em;
   }
 
   .feature {

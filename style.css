@@ -479,4 +479,36 @@ footer {
     text-align: center;
     box-sizing: border-box;
   }
+
+  .stay-productive {
+    flex-direction: row;
+    column-gap: 3em;
+    padding-bottom: 7em;
+  }
+
+  .stay-productive h2 {
+    font-size: 40px;
+    max-width: 400px;
+    text-align: left;
+  }
+
+  .stay-productive p {
+    font-size: 16px;
+    max-width: 550px;
+    text-align: left;
+  }
+
+  .productive-image img {
+    max-width: 100%;
+  }
+
+  .productive-text {
+    display: flex;
+    height: 50%;
+    flex-direction: column;
+  }
+
+  .see-how {
+    padding-bottom: 0em;
+  }
 }

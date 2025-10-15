@@ -305,13 +305,19 @@ nav img {
   padding-top: 2em;
 }
 
-.cta input {
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.input-container input {
   padding: 0.8em 1em;
   border-radius: 25px;
   height: 47.59px;
 }
 
-.cta .btn {
+.input-container .btn {
   border: none;
   border-radius: 25px;
   background-color: var(--teal-200);

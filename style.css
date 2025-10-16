@@ -316,7 +316,6 @@ nav img {
   padding: 0.8em 1em;
   border-radius: 25px;
   height: 47.59px;
-  width: 35em;
 }
 
 .input-container .btn {
@@ -535,6 +534,9 @@ footer {
 
   .container h2 {
     font-size: 30px;
+  }
+  .input-container input {
+    width: 35em;
   }
 
   .input-container {

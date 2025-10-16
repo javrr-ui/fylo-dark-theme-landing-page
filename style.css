@@ -285,6 +285,7 @@ nav img {
   display: flex;
   width: 100%;
   background-color: var(--navy-900);
+  justify-content: center;
   padding: 1.2em;
   position: relative;
   z-index: 2;
@@ -315,6 +316,7 @@ nav img {
   padding: 0.8em 1em;
   border-radius: 25px;
   height: 47.59px;
+  width: 35em;
 }
 
 .input-container .btn {
@@ -326,7 +328,7 @@ nav img {
   font-weight: 600;
   cursor: pointer;
   text-decoration: none;
-  padding: 0.8em 0em;
+  padding: 0.8em 2em;
 }
 
 .background-merge-bottom {
@@ -525,5 +527,19 @@ footer {
 
   .testimonial {
     font-size: 14px;
+  }
+
+  .container {
+    max-width: 50em;
+  }
+
+  .container h2 {
+    font-size: 30px;
+  }
+
+  .input-container {
+    justify-content: center;
+    width: 100%;
+    flex-direction: row;
   }
 }

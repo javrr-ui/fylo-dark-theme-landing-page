@@ -545,4 +545,50 @@ footer {
     width: 100%;
     flex-direction: row;
   }
+
+  .footer-bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 10em
+  }
+
+  .location {
+    width: 200em;
+  }
+
+  .footer-links {
+    flex-direction: row;
+    padding-bottom: 0em;
+  }
+
+  .footer-links ul {
+    width: 15em;
+  }
+
+  .socials {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 1em;
+  }
+
+  .socials a {
+    border-radius: 50%;
+    display: flex;
+  }
+
+  .socials img {
+    padding: 0.5em;
+    width: 30px;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1.5em;
+
+  }
+
 }

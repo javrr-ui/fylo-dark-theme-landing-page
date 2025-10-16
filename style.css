@@ -528,13 +528,14 @@ footer {
     font-size: 14px;
   }
 
-  .container {
+  .cta .container {
     max-width: 50em;
   }
 
-  .container h2 {
+  .cta .container h2 {
     font-size: 30px;
   }
+
   .input-container input {
     width: 35em;
   }

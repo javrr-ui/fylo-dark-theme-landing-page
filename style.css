@@ -549,11 +549,7 @@ footer {
   .footer-bottom {
     display: flex;
     flex-direction: row;
-    gap: 10em
-  }
-
-  .location {
-    width: 200em;
+    gap: 7%;
   }
 
   .footer-links {
@@ -562,7 +558,7 @@ footer {
   }
 
   .footer-links ul {
-    width: 15em;
+    min-width: 6em;
   }
 
   .socials {

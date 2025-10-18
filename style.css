@@ -475,11 +475,23 @@ footer {
   border: 1px solid white;
   border-radius: 50%;
   display: flex;
+  transition: border-color 0.2s ease;
+}
+
+.socials a:hover {
+  border: 1px solid var(--cyan-500)
 }
 
 .socials img {
   padding: 0.5em;
   width: 30px;
+}
+.social {
+  transition: filter 0.2s ease;
+}
+
+.social:hover {
+  filter: invert(65%) sepia(66%) saturate(398%) hue-rotate(136deg) brightness(95%) contrast(90%); /* Approximates hsl(176, 68%, 64%) */
 }
 
 @media screen and (min-width: 1024px) {

@@ -59,8 +59,15 @@ nav img {
 }
 
 .nav-links li a {
+  display: block;
+  text-align: center;
+  width: 4em;
   text-decoration: none;
   color: white;
+}
+.nav-links li a:hover {
+  text-decoration: underline;
+  font-weight: 600;
 }
 
 .intro {
@@ -444,7 +451,7 @@ footer {
   }
 
   .nav-links {
-    gap: 3rem;
+    gap: 1rem;
   }
 
   .intro {

@@ -136,6 +136,10 @@ nav img {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.intro-cta:hover {
+  background-color: var(--cyan-500);
 }
 
 .intro-cta a {
@@ -335,6 +339,11 @@ nav img {
   cursor: pointer;
   text-decoration: none;
   padding: 0.8em 2em;
+  transition: background-color 0.2s ease;
+}
+
+.input-container .btn:hover {
+  background-color: var(--cyan-500);
 }
 
 .background-merge-bottom {
@@ -592,7 +601,5 @@ footer {
     flex-direction: column;
     justify-content: flex-start;
     gap: 1.5em;
-
   }
-
 }
